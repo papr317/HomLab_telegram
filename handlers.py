@@ -1,4 +1,7 @@
-# handlers.py
+"""
+обработчик кнопок
+"""
+
 from aiogram import Router, F
 from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 from services import call_homelab_app

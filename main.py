@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher
 from handlers import router
 import os
 from dotenv import load_dotenv
-
+ 
 # Вставляем ваши данные напрямую (или можно вынести в .env, как обсуждали)
 load_dotenv()
 
